@@ -1,4 +1,9 @@
 
+# References that I used to learn this:
+# Harvard cs50 course - https://cs50.harvard.edu/x/2020/weeks/6/
+# Google Python Class - https://www.youtube.com/watch?v=tKTZoB2Vjuk
+
+
 # Always starts with hello world
 print("Hello World")
 
@@ -11,6 +16,9 @@ name = "Rúben Lício Reis"
 print("My name using variable: " + name)
 email = "rubenlr@gmail.com"
 print(f"My e-mail is {email}")
+
+print(f"Short formatting auto convert int into str {98}")
+print("With variables i have to specify convertion into str " + str(98))
 
 print()
 
